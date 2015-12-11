@@ -1,0 +1,30 @@
+Intel	ORGANIZATION
+?	O
+Core	ORGANIZATION
+i7	ORGANIZATION
+is	O
+a	O
+name	O
+that	O
+the	O
+company	O
+Intel	ORGANIZATION
+uses	O
+for	O
+the	O
+computer	O
+processors	O
+it	O
+makes	O
+for	O
+desktop	O
+and	O
+laptop	O
+computers	O
+.	O
+
+Intel	ORGANIZATION
+uses	O
+What	O
+a	O
+
