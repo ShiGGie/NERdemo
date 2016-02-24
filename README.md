@@ -1,12 +1,13 @@
-Execution
--------------------------
+#### Execution
+
+
 Run using 
 cd /torch-implementation
 ./th -i main.lua
 
 
-Data
--------------------------
+#### Data
+
 All Raw data used is public domain. So they can be distributed -
 however they are not included to save space in the handin.
 
@@ -15,13 +16,13 @@ Word embeddings+hash: http://ronan.collobert.com/senna/
 
 
 
-Known Issues
--------------------------
+#### Known Issues
+
 - The ending feature vector is length 4 on purpose (at the time), since this was an experimental approach (The ending results weren't significant (~80%), as you can see). Feel free to fix that and get better results.
 
 
-Optional: Generating your own data
--------------------------
+####  Optional: Generating your own data
+
 This comes with all of the scripts used to generate my own data
 To do so, you require the NER system
 created from http://nlp.stanford.edu/software/CRF-NER.shtml
@@ -58,14 +59,12 @@ sample.
    split data.txt into train.txt and test.txt. The ratio is often 1:3 
 
 
-Installing Torch
--------------------------
+####  Installing Torch
 Easy way: https://github.com/torch/distro
 Detailed way: https://github.com/nagadomi/waifu2x
 
 
-LUARocks Packages
--------------------------
+####  LUARocks Packages
 LUA luajit LUAROCKS should be downloaded with your Torch.
 There are many package dependencies for torch files, and I did not kepe track of them
 
@@ -81,5 +80,4 @@ NERdemo
 -------------------------
 This was a helpful start into torch and NER (learning purposes). This is a different approach and structure than the ones generally introduced by the other well-formatted demos. Highly recommended to not deploy in any setting.
 
---------------------
 Tested on Ubuntu 14.04
