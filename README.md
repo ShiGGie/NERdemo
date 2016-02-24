@@ -29,9 +29,8 @@ created from http://nlp.stanford.edu/software/CRF-NER.shtml
 
 ---This is because data used for NLP -- and NER -- is either expensive (in the $000s) or
 require an application to NIST with permission from supervisor. We have to be
-creative and generate our own training/test data. Since htese labeled data follow approx 90% accuracy,
-we can still do appropriate analysis, since we are interested in errors and a working
-sample.
+creative and generate our own training/test data. For the sake of a working demo, the labelled
+through these means are adequate.
 
 1. Download http://homepages.inf.ed.ac.uk/kwoodsen/wiki.html
    Place the rev-split folder in the /data folder 
