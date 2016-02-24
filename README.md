@@ -23,7 +23,7 @@ Word embeddings+hash: http://ronan.collobert.com/senna/
 
 ####  Optional: Generating your own data
 
-This comes with all of the scripts used to generate my own data
+This comes with all of the scripts used to generate my own data.
 To do so, you require the NER system
 created from http://nlp.stanford.edu/software/CRF-NER.shtml
 
